@@ -29,6 +29,7 @@ public class pipeCollision : MonoBehaviour
             {
                 Debug.Log("##########################Collision with INCORRECT color");
                 scoreboard_.UpdateScore(-500);
+                scoreboard_.UpdateLives(-1);
             }
         }
     }
